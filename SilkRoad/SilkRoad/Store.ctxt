@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Store
+comment1.params=nombre\ posicion\ tenges
+comment1.target=Store(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment3.params=
+comment3.target=int\ getPosicion()
+comment4.params=
+comment4.target=int\ getMonto()
+comment5.params=nuevoMonto
+comment5.target=void\ setMonto(int)
+comment6.params=
+comment6.target=void\ resetMonto()
+numComments=7
