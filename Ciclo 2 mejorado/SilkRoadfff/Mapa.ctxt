@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Mapa
+comment1.params=dimension\ tamanoCelda
+comment1.target=Mapa(int,\ int)
+comment2.params=
+comment2.target=void\ dibujarFondo()
+numComments=3

@@ -13,7 +13,7 @@ public class Store {
 
         // crear el rectángulo que representa a la tienda
         rectangulo = new Rectangle();
-        rectangulo.changeColor("black");  
+        rectangulo.changeColor("yellow");  
         rectangulo.changeSize(40, 20);    
         rectangulo.makeVisible();
     }

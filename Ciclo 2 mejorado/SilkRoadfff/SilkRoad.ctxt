@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=SilkRoad
+comment1.params=tama\u00F1o\ tamCelda
+comment1.target=SilkRoad(int,\ int)
+comment2.params=
+comment2.target=void\ dibujarEspiralCuadrada()
+comment3.params=fila\ col\ x\ y
+comment3.target=void\ crearCelda(int,\ int,\ int,\ int)
+comment4.params=nombre\ fila\ col
+comment4.target=void\ placeRobot(java.lang.String,\ int,\ int)
+comment5.params=nombre\ fila\ col\ tenges
+comment5.target=void\ placeStore(java.lang.String,\ int,\ int,\ int)
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Robot
+comment1.params=nombre\ pos\ tamCelda
+comment1.target=Robot(java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment3.params=
+comment3.target=int\ getCurrentPos()
+comment4.params=x\ y
+comment4.target=void\ moveTo(int,\ int)
+comment5.params=
+comment5.target=void\ makeVisible()
+comment6.params=tama\u00F1o
+comment6.target=void\ setTama\u00F1o(int)
+numComments=7

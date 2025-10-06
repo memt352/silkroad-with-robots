@@ -18,7 +18,7 @@ public class SilkRoad {
         camino.makeVisible();         // mostrar en el canvas
     }
 
-    public void placeRobot(String nombre, int posicion, String color) {
+    public void placeRobot(String nombre, int posicion) {
         Robot r = new Robot(nombre, posicion);
         robots.add(r);
     }
@@ -46,14 +46,14 @@ public class SilkRoad {
         }
     }
 
-    public void resetDay() {
-        for (Robot r : robots) {
-            r.resetPos();
-        }
-        for (Store s : stores) {
-            s.resetMonto();
-        }
-    }
+//    public void resetDay() {
+//        for (Robot r : robots) {
+//            r.resetPos();
+//        }
+//        for (Store s : stores) {
+//            s.resetMonto();
+//        }
+//    }
 
     public int maxProfit() {
         int mejor = 0;

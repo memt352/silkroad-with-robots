@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Store
+comment1.params=nombre\ posicion\ tenges\ tamCelda
+comment1.target=Store(java.lang.String,\ int,\ int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment3.params=
+comment3.target=int\ getPosicion()
+comment4.params=
+comment4.target=int\ getMonto()
+comment5.params=
+comment5.target=void\ resetMonto()
+comment6.params=x\ y
+comment6.target=void\ mover(int,\ int)
+comment7.params=tama\u00F1o
+comment7.target=void\ setTama\u00F1o(int)
+numComments=8
