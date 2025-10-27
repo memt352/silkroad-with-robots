@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SilkRoadContest
+comment0.text=\r\n\ REQUISITOS\ CICLO\ 3\ (DOPO-I03)\r\n\ Resuelve\ y\ simula\ el\ "Problem\ J"\ de\ la\ marat\u00F3n.\r\n\ Cumple\ con\ la\ restricci\u00F3n\ de\ NO\ usar\ SilkRoad\ para\ resolver.\r\n
+comment1.params=
+comment1.target=SilkRoadContest()
+comment1.text=\r\n\ Constructor\ para\ SilkRoadContest.\r\n
+comment2.params=days
+comment2.target=int[]\ solve(int[][])
+comment2.text=\r\n\ REQUISITO\ 14\:\ Soluciona\ el\ problema\ de\ la\ marat\u00F3n\ (Problem\ J).\r\n\ @param\ days\ El\ arreglo\ de\ d\u00EDas\ (formato\ ICPC).\r\n\ @return\ int[]\ Un\ arreglo\ con\ la\ ganancia\ m\u00E1xima\ para\ cada\ d\u00EDa.\r\n
+comment3.params=robots\ stores\ robotIndex\ storeMask
+comment3.target=long\ calculateMaxProfit(java.util.List,\ java.util.List,\ int,\ long)
+comment3.text=\r\n\ HELPER\ PARA\ SOLVE()\ -\ Algoritmo\ de\ Programaci\u00F3n\ Din\u00E1mica\ (DP)\r\n\ Resuelve\ el\ problema\ de\ asignaci\u00F3n\ de\ tiendas\ a\ robots.\r\n\r\n\ @param\ robots\ Lista\ de\ todos\ los\ robots.\r\n\ @param\ stores\ Lista\ de\ todas\ las\ tiendas.\r\n\ @param\ robotIndex\ El\ robot\ que\ estamos\ considerando\ (para\ la\ recursi\u00F3n).\r\n\ @param\ storeMask\ Un\ bitmask\ de\ las\ tiendas\ que\ QUEDAN\ por\ visitar.\r\n\ @return\ La\ m\u00E1xima\ ganancia\ posible\ con\ esta\ configuraci\u00F3n.\r\n
+comment4.params=robot\ allStores\ subMask
+comment4.target=long\ solveForOneRobot(SilkRoadContest.AlgorithmRobot,\ java.util.List,\ long)
+comment4.text=\r\n\ Sub-problema\ DP\:\ Encuentra\ la\ mejor\ ruta\ para\ UN\ robot\r\n
+comment5.params=days\ slow
+comment5.target=void\ simulate(int[][],\ boolean)
+comment5.text=\r\n\ REQUISITO\ 15\:\ Simula\ la\ soluci\u00F3n\ (usando\ la\ l\u00F3gica\ 'greedy'\ del\ C2).\r\n
+numComments=6

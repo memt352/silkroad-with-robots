@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Robot
+comment1.params=nombre\ pos
+comment1.target=Robot(java.lang.String,\ int)
+comment2.params=
+comment2.target=void\ makeVisible()
+comment2.text=Muestra\ al\ robot
+comment3.params=
+comment3.target=java.lang.String\ getNombre()
+comment4.params=
+comment4.target=int\ getCurrentPos()
+comment5.params=
+comment5.target=java.lang.String\ getColor()
+comment6.params=
+comment6.target=void\ moveRight()
+comment6.text=Mueve\ todo\ el\ robot\ a\ la\ derecha
+comment7.params=
+comment7.target=void\ moveLeft()
+comment7.text=Mueve\ todo\ el\ robot\ a\ la\ izquierda
+comment8.params=
+comment8.target=void\ updateParts()
+comment8.text=Recoloca\ las\ dem\u00E1s\ partes\ en\ base\ a\ la\ cabeza
+numComments=9

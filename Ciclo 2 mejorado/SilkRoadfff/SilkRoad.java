@@ -53,11 +53,14 @@ public class SilkRoad {
 
     public void placeRobot(String nombre, int fila, int col) {
         if (fila >= 0 && fila < tamaño && col >= 0 && col < tamaño) {
-            Robot r = new Robot(nombre, 0, this.tamCelda); 
+            Robot r = new Robot(nombre, 0, this.tamCelda);
             robots.add(r);
             Rectangle celda = celdas[fila][col];
-            if (celda != null) r.moveTo(celda.getxPosition(), celda.getyPosition());
-        }
+            if (celda != null) {
+                r.moveTo(celda.getxPosition(), celda.getyPosition());
+                r.setPosicion(fila, col); 
+                }
+            }
     }
 
     public void placeStore(String nombre, int fila, int col, int tenges) {
@@ -70,9 +73,61 @@ public class SilkRoad {
     }
 
     public static void main(String[] args) {
-        SilkRoad road = new SilkRoad(15, 30);
+        SilkRoad road = new SilkRoad(15, 60);
         road.placeRobot("R1", 0, 0);
         road.placeStore("S1", 7, 7, 50);
         road.placeStore("S2", 10, 10, 30);
+        
     }
+    
+    public void moverRobotIzquierdaADerecha(Robot robot) {
+        for (int fila = 0; fila < tamaño; fila++) {
+            int startCol = (fila == 0 && robot.getFila() == 0 && robot.getCol() == 0) ? 1 : 0;
+    
+            for (int col = startCol; col < tamaño; col++) {
+                moverRobotACelda(robot, fila, col);
+            }
+        }
+    }
+    
+    public void moverRobotACelda(Robot robot, int fila, int col) {
+    Rectangle celda = celdas[fila][col];
+        if (celda != null) {
+            robot.moveTo(celda.getxPosition(), celda.getyPosition());
+            robot.setPosicion(fila, col);
+            canvas.wait(200);
+        }
+    }
+    
+    public Robot getPrimerRobot() {
+    if (!robots.isEmpty()) {
+        return robots.get(0);
+    }
+    return null;
+    }
+    
+    public Robot getRobotPorNombre(String nombre) {
+        for (Robot r : robots) {
+            if (r.getNombre().equals(nombre)) {
+                return r;
+            }
+        }
+    return null;
+    }
+    
+    public void moverRobotPorNombre(String nombre, int fila, int col) {
+    Robot robot = getRobotPorNombre(nombre);
+        if (robot != null && fila >= 0 && fila < tamaño && col >= 0 && col < tamaño) {
+            Rectangle celda = celdas[fila][col];
+            if (celda != null) {
+                robot.moveTo(celda.getxPosition(), celda.getyPosition());
+                robot.setPosicion(fila, col);
+                canvas.wait(200);
+            }
+        } 
+        else {
+            System.out.println("Robot no encontrado o posición inválida");
+    }
+    }
+
 }

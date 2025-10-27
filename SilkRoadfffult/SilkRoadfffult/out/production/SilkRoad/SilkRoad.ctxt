@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=SilkRoad
+comment1.params=
+comment1.target=SilkRoad()
+comment2.params=nombre\ posicion
+comment2.target=void\ placeRobot(java.lang.String,\ int)
+comment3.params=nombre\ posicion\ tenges
+comment3.target=void\ placeStore(java.lang.String,\ int,\ int)
+comment4.params=nombre
+comment4.target=void\ removeRobot(java.lang.String)
+comment5.params=nombre
+comment5.target=void\ removeStore(java.lang.String)
+comment6.params=
+comment6.target=int\ maxProfit()
+numComments=7
